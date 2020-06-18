@@ -17,10 +17,10 @@ Initalize library(replace `timeline` with ID of your timeline element):
 Basic HTML template for this library is:
 ```html
 <div id="timeline" class="time-line">
-  <div class="time-point">
-    <p class="time-date content">
+  <div class="time-content">
+    <p class="time-date">
     </p>
-    <p class="time-text content">
+    <p class="time-text">
     </p>
   </div>
 </div>
