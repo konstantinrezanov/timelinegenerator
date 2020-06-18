@@ -1,9 +1,17 @@
 # timelinegenerator
-Simple timeline generator, currently only uses CSS.
+Simple timeline generator, built using plain CSS and JavaScript.
 ## Installation 
 Include main CSS-file on top of the HTML:
 ```html
 <link rel="stylesheet" href="timelinecreator.css">
+```
+Include timelinecreator.js before the closing `body` tag:
+```html
+<script src="timelinecreator.js"></script>
+```
+Initalize library(replace `timeline` with ID of your timeline element): 
+```JavaScript
+  createTimeline(document.getElementById("timeline"))
 ```
 ## Usage 
 Basic HTML template for this library is:
@@ -20,6 +28,5 @@ Basic HTML template for this library is:
 You can customize library for your use in the included CSS file.
 ## Planned features
 - [ ] Included Customiztion
-- [ ] More Responsible Design
 ## License 
   MIT
