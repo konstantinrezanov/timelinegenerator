@@ -21,3 +21,5 @@ You can customize library for your use in the included CSS file.
 ## Planned features
 - [ ] Included Customiztion
 - [ ] More Responsible Design
+## License 
+  MIT
