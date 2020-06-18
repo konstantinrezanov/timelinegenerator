@@ -1,0 +1,40 @@
+.time-line {
+    position: relative;
+    padding:2rem;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.time-point {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color:black;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.time-line:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+.content {
+    display: block;
+}
+.time-date {
+    transform: translate(-40px);
+}
+.time-text {
+    margin-left: 5px;
+}
