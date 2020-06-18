@@ -7,6 +7,12 @@
     align-items: center;
 }
 .time-point {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color:black;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     overflow: visible;
     display: flex;
     align-items: center;
@@ -23,16 +29,12 @@
     left: 0;
     right: 0;
     margin: 0 auto; }
-.time-content {
-    display:flex;
-    flex-flow: column;
+.content {
+    display: block;
 }
-.time-content p {
-    margin: 0;
+.time-date {
+    transform: translate(-40px);
 }
-.point-of-time {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: black;
+.time-text {
+    margin-left: 5px;
 }
