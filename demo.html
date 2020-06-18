@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+        <link rel="stylesheet" href="timelinecreator.css">
+        <link rel="stylesheet" href="demo.css">
+    </head>
+    <body>
+        <div id="timeline" class="time-line">
+            <div class="time-point">
+                <div class="time-content">
+                    <p class="time-date">
+                        2077
+                    </p>
+                    <p class="time-text">
+                        Cyberpunk
+                    </p>
+                </div>
+            </div>
+            <div class="time-point">
+                <div class="time-content">
+                    <p class="time-date">
+                        1984
+                    </p>
+                    <p class="time-text">
+                        Orwell
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="timelinecreator.js"></script>
+        <script>
+            createTimeline(document.getElementById("timeline"))
+        </script>
+    </body>
+</html>
