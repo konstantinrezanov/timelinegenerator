@@ -12,7 +12,7 @@ Include timelinecreator.js before the closing `body` tag:
 Initalize library(replace `timeline` with ID of your timeline element): 
 ```JavaScript
   createTimeline({
-  name:document.getElementById("timeline")
+    name:document.getElementById("timeline")
   })
 ```
 ## Usage 
