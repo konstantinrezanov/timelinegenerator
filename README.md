@@ -11,7 +11,9 @@ Include timelinecreator.js before the closing `body` tag:
 ```
 Initalize library(replace `timeline` with ID of your timeline element): 
 ```JavaScript
-  createTimeline(document.getElementById("timeline"))
+  createTimeline({
+  name:document.getElementById("timeline")
+  })
 ```
 ## Usage 
 Basic HTML template for this library is:
