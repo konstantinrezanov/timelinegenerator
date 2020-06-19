@@ -21,10 +21,12 @@
                     </p>
                 </div>
             </div>
+            <div class="time-year">
+                1984
+            </div>
             <div class="time-point">
                 <div class="time-content">
                     <p class="time-date">
-                        1984
                     </p>
                     <p class="time-text">
                         Orwell
@@ -34,7 +36,11 @@
         </div>
         <script src="timelinecreator.js"></script>
         <script>
-            createTimeline(document.getElementById("timeline"))
+            createTimeline({
+                name:document.getElementById("timeline"),
+                alternate: false,
+                startRight: false
+            })
         </script>
     </body>
 </html>

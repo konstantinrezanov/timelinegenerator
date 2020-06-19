@@ -1,3 +1,6 @@
+:root {
+    --timeline-color: black;
+}
 .time-line {
     position: relative;
     padding:2rem;
@@ -17,7 +20,7 @@
     position: absolute;
     height: 100%;
     width: 4px;
-    background: black;
+    background: var(--timeline-color);
     top: 0;
     bottom: 0;
     left: 0;
@@ -34,11 +37,13 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: black;
+    background-color: var(--timeline-color);
+    margin:0 8px;
 }
 .time-year {
-    border: black 3px dashed;
+    border: var(--timeline-color) 3px dashed;
     border-top: none;
     border-left:none;
     border-right:none;
+    margin-top:4px;
 }

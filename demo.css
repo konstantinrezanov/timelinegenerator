@@ -6,7 +6,7 @@ body {
 #timeline {
     border: black 2px solid;
     border-radius: 4px;
-    width:40vw;
-    height: 40vh;
+    width:100%;
+    height: auto;
     padding:0.5rem;
 }   
