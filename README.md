@@ -38,7 +38,7 @@ JavaScript customization options:
 
 | Name | Description | Default |
 | --- | --- | --- |
-| alternate | Choose whether or not points alternate on timeline | true |
+| alternate | Choose whether or not points alternate on timeline | false |
 | startRight | Choose whether or not points start from right | true |
 | color | Choose color of timeline elements | black |
 
