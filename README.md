@@ -26,6 +26,8 @@ Basic HTML template for this library is:
 </div>
 ```
 You can customize library for your use in the included CSS file.
+## Customization 
+You can include `<div class="time-year">` in your HTML-file to add year mark.
 ## Planned features
 - [ ] Included Customiztion
 ## License 
