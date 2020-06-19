@@ -27,15 +27,19 @@ Basic HTML template for this library is:
 ```
 ## Customization 
 CSS customziation classes:
+
 | Class | Description |
 | --- | --- |
 | .time-year | Adds separate year mark on timeline |
+
 JavaScript customization options:
+
 | Name | Description | Default |
 | --- | --- | --- |
 | alternate | Choose whether or not points alternate on timeline | true |
 | startRight | Choose whether or not points start from right | true |
 | color | Choose color of timeline elements | black |
+
 You can additionally customize library for your use in the included CSS file.
 ## License 
   MIT
