@@ -22,9 +22,9 @@ function createTimeline(options) {
             let years=options.name.getElementsByClassName('time-year')
             for (i=0; i<years.length; i++) {
                 if (i%2==0) {
-                    years[i].style.paddingRight=`${years[i].offsetWidth+8}px`
+                    years[i].style.paddingRight=`${years[i].offsetWidth+12}px`
                 } else {
-                    years[i].style.paddingLeft=`${years[i].offsetWidth+8}px`
+                    years[i].style.paddingLeft=`${years[i].offsetWidth+12}px`
                 }
             }
         } else {
@@ -39,7 +39,7 @@ function createTimeline(options) {
             }
             let years=options.name.getElementsByClassName('time-year')
             for (i=0; i<years.length; i++) {
-                years[i].style.paddingRight=`${years[i].offsetWidth+8}px`
+                years[i].style.paddingRight=`${years[i].offsetWidth+12}px`
             }
         }
     } else {
@@ -63,9 +63,9 @@ function createTimeline(options) {
             let years=options.name.getElementsByClassName('time-year')
             for (i=0; i<years.length; i++) {
                 if (i%2==0) {
-                    years[i].style.paddingLeft=`${years[i].offsetWidth+8}px`
+                    years[i].style.paddingLeft=`${years[i].offsetWidth+12}px`
                 } else {
-                    years[i].style.paddingRight=`${years[i].offsetWidth+8}px`
+                    years[i].style.paddingRight=`${years[i].offsetWidth+12}px`
                 }
             }
         } else {
@@ -80,7 +80,7 @@ function createTimeline(options) {
             }
             let years=options.name.getElementsByClassName('time-year')
             for (i=0; i<years.length; i++) {
-                years[i].style.paddingLeft=`${years[i].offsetWidth+8}px`
+                years[i].style.paddingLeft=`${years[i].offsetWidth+12}px`
             }
         }
     }
