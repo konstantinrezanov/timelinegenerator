@@ -8,4 +8,8 @@ function createTimeline(obj) {
         let offset=content.offsetWidth
         points[i].style.marginLeft=`${offset}px`
     }
+    let years=obj.getElementsByClassName('time-year')
+    for (i=0; i<years.length; i++) {
+        years[i].style.paddingLeft=`${years[i].offsetWidth+8}px`
+    }
 }

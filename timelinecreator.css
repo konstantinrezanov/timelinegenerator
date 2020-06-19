@@ -36,3 +36,9 @@
     border-radius: 50%;
     background-color: black;
 }
+.time-year {
+    border: black 3px dashed;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+}
