@@ -1,22 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Work+Sans&display=swap');
 body {
-    background-color: #f5cd99;
+    background-color: #dee7c0;
     color: black;
     padding: 1em;
-    font-family:'Work Sans'
 }
 #timeline {
+    border: black 2px solid;
+    border-radius: 4px;
     width:100%;
     height: auto;
-    padding:0.5rem 0;
+    padding:0.5rem;
 }   
-h1 {
-    text-align: center;
-    font-family: 'Permanent Marker';
-    margin-bottom: 2rem;
-}
-h2 {
-    text-align: center;
-    font-family: 'Permanent Marker';
-    margin: 1.5rem 0;
-}
